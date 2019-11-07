@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: 'Lora', serif;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color:#494949;
+  font-size: 28px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner_content{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner_h1 {
+  font-size: 38px;
+  font-weight: bold;
+  padding: 25px 0;
+}
+.banner_p {
+  font-size: 38px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding: 25px 0;
+}
+.content_area {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.post {
+  padding: 0 0 35px 0;
+}
+.post > h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+.post > p {
+  color:#494949;
+  font-size: 21px;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+.container_link {
+  margin: 0 0 50px 0;
+}
